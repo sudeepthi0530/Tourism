@@ -111,6 +111,113 @@ export default function KudroliTemplePage() {
           appropriate dress and decorum.
         </p>
       </section>
+      
+      {/* VISITOR INFORMATION */}
+      <section className="bg-[#E9DCCB] px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#A64F3C]">
+            Plan Your Visit
+          </p>
+
+          <h2 className="mb-10 text-4xl text-[#27151F]">
+            Visitor Information
+          </h2>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+            {/* LOCATION */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Location
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Kudroli Gokarnath Temple, Kudroli, Mangaluru,
+                Karnataka.
+              </p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Kudroli+Gokarnath+Temple+Mangalore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block border-b border-[#A64F3C] pb-1 text-sm text-[#A64F3C]"
+              >
+                View on Google Maps →
+              </a>
+            </article>
+
+            {/* VISITING HOURS */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Visiting Hours
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Morning: 6:00 AM – 2:00 PM
+                <br />
+                Evening: 4:30 PM – 9:00 PM
+              </p>
+            </article>
+
+            {/* POOJA TIMINGS */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Pooja Timings
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Afternoon Pooja: 12:30 PM
+                <br />
+                Visitors can experience the temple's devotional
+                traditions and rituals.
+              </p>
+            </article>
+
+            {/* ENTRY FEE */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Entry Fee
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                General temple darshan is free.
+                Special poojas and religious services may
+                have separate charges.
+              </p>
+            </article>
+
+            {/* HOW TO REACH */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                How to Reach
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Reach Kudroli by local bus, taxi or auto-rickshaw
+                from Mangaluru city and nearby areas.
+              </p>
+            </article>
+
+            {/* BEST TIME */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Best Time to Visit
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                October is especially popular because of the
+                grand Mangaluru Dasara celebrations.
+              </p>
+            </article>
+
+            {/* DRESS CODE */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Dress Code
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Wear modest clothing and follow the temple's
+                dress code and visitor guidelines.
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
             {/* PHOTO GALLERY */}
       <section className="bg-[#F3E9D9] px-6 py-20">
         <div className="mx-auto max-w-6xl">

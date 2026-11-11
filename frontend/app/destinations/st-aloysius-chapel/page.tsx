@@ -118,6 +118,105 @@ export default function StAloysiusChapelPage() {
           environment and follow the visitor guidelines.
         </p>
       </section>
+
+      {/* VISITOR INFORMATION */}
+      <section className="bg-[#E9DCCB] px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#A64F3C]">
+            Plan Your Visit
+          </p>
+
+          <h2 className="mb-10 text-4xl text-[#27151F]">
+            Visitor Information
+          </h2>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+            {/* LOCATION */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">Location</h3>
+              <p className="leading-8 text-[#65534D]">
+                St. Aloysius Chapel, Kodialbail, Mangaluru,
+                Karnataka.
+              </p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=St+Aloysius+Chapel+Mangalore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block border-b border-[#A64F3C] pb-1 text-sm text-[#A64F3C]"
+              >
+                View on Google Maps →
+              </a>
+            </article>
+
+            {/* VISITING HOURS */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">Visiting Hours</h3>
+              <p className="leading-8 text-[#65534D]">
+                Monday:
+                <br />
+                9:30 AM – 12:30 PM
+                <br />
+                2:00 PM – 4:00 PM
+                <br /><br />
+                Tuesday – Sunday:
+                <br />
+                9:30 AM – 1:00 PM
+                <br />
+                2:30 PM – 5:00 PM
+              </p>
+            </article>
+
+            {/* ENTRY FEE */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">Entry Fee</h3>
+              <p className="leading-8 text-[#65534D]">
+                No fixed entry fee is listed. Guide service is
+                free of cost. Visitors may contribute towards
+                chapel maintenance.
+              </p>
+            </article>
+
+            {/* MASS TIMINGS */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">Mass Timings</h3>
+              <p className="leading-8 text-[#65534D]">
+                Daily Mass:
+                <br />
+                6:45 AM and 8:15 AM
+                <br /><br />
+                Sunday Mass:
+                <br />
+                6:30 AM and 8:00 AM
+              </p>
+            </article>
+
+            {/* HOW TO REACH */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">How to Reach</h3>
+              <p className="leading-8 text-[#65534D]">
+                Located in central Mangaluru. Visitors can
+                reach the chapel by local bus, taxi or
+                auto-rickshaw.
+              </p>
+            </article>
+
+            {/* VISITOR GUIDELINES */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Visitor Guidelines
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Remove footwear before entering. Maintain
+                silence and discipline. Photography and
+                videography are not permitted inside.
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
               {/* PHOTO GALLERY */}
       <section className="bg-[#F3E9D9] px-6 py-20">
         <div className="mx-auto max-w-6xl">

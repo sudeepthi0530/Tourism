@@ -117,6 +117,133 @@ export default function TannirbhaviBeachPage() {
           avoid entering the sea during unsafe conditions.
         </p>
       </section>
+
+      {/* VISITOR INFORMATION */}
+      <section className="bg-[#E9DCCB] px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#A64F3C]">
+            Plan Your Journey
+          </p>
+
+          <h2 className="mb-10 text-4xl text-[#27151F]">
+            Visitor Information
+          </h2>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+            {/* LOCATION */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Location
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Tannirbhavi Beach, Kasba Bengre, Mangaluru,
+                Karnataka.
+              </p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Tannirbhavi+Beach+Mangalore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block border-b border-[#A64F3C] pb-1 text-sm text-[#A64F3C]"
+              >
+                View on Google Maps →
+              </a>
+            </article>
+
+            {/* VISITING HOURS */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Visiting Hours
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Commonly listed hours:
+                <br />
+                7:00 AM – 7:00 PM
+                <br />
+                Timings may vary depending on beach management
+                and seasonal conditions.
+              </p>
+            </article>
+
+            {/* ENTRY FEE */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Entry Fee
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Blue Flag area rates reported in May 2024:
+                <br />
+                Adults: ₹20
+                <br />
+                Children below 13: ₹10
+                <br />
+                Confirm current charges at the entrance.
+              </p>
+            </article>
+
+            {/* HOW TO REACH */}
+            
+
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                How to Reach
+              </h3>
+
+              <p className="leading-8 text-[#65534D]">
+                <strong>By Bus & Ferry:</strong>
+                <br />
+                From State Bank Bus Stand, take a bus towards
+                Sultan Battery (Routes 16 or 16A). Get down at
+                Sultan Battery, purchase a ferry ticket and cross
+                the Gurupura River by boat. From the other side,
+                walk towards Tannirbhavi Beach.
+
+                <br /><br />
+
+                <strong>By Road:</strong>
+                <br />
+                Reach Tannirbhavi Beach through Kuloor Bridge
+                by taxi, auto-rickshaw or bus.
+              </p>
+            </article>
+
+            {/* BEST TIME */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Best Time to Visit
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                October to February is generally the best period
+                to enjoy pleasant weather and beautiful sunsets.
+              </p>
+            </article>
+
+            {/* BEACH SAFETY */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Beach Safety
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Lifeguards are generally on duty during daytime.
+                Follow safety instructions and avoid swimming
+                during rough sea conditions.
+              </p>
+            </article>
+
+            {/* FACILITIES */}
+            <article className="border border-[#C6A16B]/50 bg-[#F8F1E7] p-7">
+              <h3 className="mb-3 text-xl text-[#A64F3C]">
+                Facilities
+              </h3>
+              <p className="leading-8 text-[#65534D]">
+                Basic facilities include parking, toilets,
+                refreshments and seating areas.
+              </p>
+            </article>
+
+          </div>
+        </div>
+      </section>
              {/* PHOTO GALLERY */}
       <section className="bg-[#F3E9D9] px-6 py-20">
         <div className="mx-auto max-w-6xl">
@@ -142,10 +269,10 @@ export default function TannirbhaviBeachPage() {
   />
 
   <img
-    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000"
-    alt="Fishing boats at Tannirbhavi Beach sunset"
-    className="h-72 w-full border border-[#C6A16B]/50 object-cover"
-  />
+  src="/tannirbhavi-ferry.jpg"
+  alt="Ferry crossing the Gurupura River to Tannirbhavi Beach"
+  className="h-72 w-full border border-[#C6A16B]/50 object-cover"
+/>
 </div>
         </div>
       </section>

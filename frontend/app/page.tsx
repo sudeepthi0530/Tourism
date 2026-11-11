@@ -80,7 +80,7 @@ export default function Home() {
           <a href="#" className="text-[#D6AE70]">
             Home
           </a>
-          <a href="#destinations" className="transition hover:text-[#D6AE70]">
+          <a href="/explore" className="transition hover:text-[#D6AE70]">
             Explore Places
           </a>
           <a href="#about" className="transition hover:text-[#D6AE70]">
@@ -221,11 +221,11 @@ export default function Home() {
             {filteredPlaces.map((place) => (
               <article
                 key={place.name}
-                className="group overflow-hidden border border-[#C6A16B]/40 bg-[#F8F1E7] transition duration-500 hover:-translate-y-2 hover:shadow-xl"
+                className="group overflow-hidden border border-[#C6A16B]/50 bg-[#F8F1E7] transition-all duration-500 hover:-translate-y-2 hover:border-[#A64F3C] hover:shadow-2xl"
               >
-                <div className="h-56 overflow-hidden">
+                <div className="h-64 overflow-hidden">
                   <div
-                    className="h-full w-full bg-cover bg-center transition duration-700 group-hover:scale-110"
+                    className="h-full w-full bg-cover bg-center transition-transform duration-1000 ease-in-out group-hover:scale-110"
                     style={{
                       backgroundImage: `url(${place.image})`,
                     }}
@@ -244,7 +244,8 @@ export default function Home() {
                     {place.name}
                   </h3>
 
-                  <p className="mt-2 text-sm text-[#897A70]">
+                  <p className="mt-3 flex items-center gap-2 text-sm text-[#897A70]">
+                    <span  className="text-[#C6A16B]">◆</span>
                     {place.location}
                   </p>
 
@@ -266,7 +267,7 @@ place.name === "Tannirbhavi Beach" ? (
         ? "/destinations/st-aloysius-chapel"
         : "/destinations/tannirbhavi-beach"
     }
-    className="mt-6 inline-block border-b border-[#A64F3C] pb-1 text-sm tracking-wide text-[#A64F3C] transition hover:text-[#27151F]"
+    className="mt-6 inline-block border border-[#C6A16B] bg-transparent px-5 py-3 text-sm tracking-wide text-[#A64F3C] transition-all duration-300 hover:bg-[#27151F] hover:text-[#D6AE70]"
   >
     Discover More →
   </a>
