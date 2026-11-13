@@ -37,34 +37,35 @@ const experiences = [
 const visitorInfo = [
   {
     title: "Location",
-    description: "Sharavu, Hampankatta, Mangaluru, Dakshina Kannada.",
+    description:
+      "Sharavu Ganapathi Temple Road, Hampankatta, Mangaluru, Karnataka 575001.",
     link: "https://www.google.com/maps/search/?api=1&query=Sharavu+Mahaganapathi+Temple+Mangaluru",
     linkText: "View on Google Maps",
   },
   {
     title: "Visiting Hours",
     description:
-      "Timings vary according to daily poojas and special occasions. Confirm with the temple before visiting.",
+      "Daily: 6:00 AM to 12:45 PM and 4:30 PM to 8:30 PM. Timings may change during festivals and special occasions.",
   },
   {
     title: "Entry Fee",
     description:
-      "General temple entry is free. Special poojas and religious services may have separate charges.",
+      "General darshan is free. Special sevas and religious offerings have separate charges.",
   },
   {
     title: "How to Reach",
     description:
-      "The temple is located in central Mangaluru and can be reached by local buses, auto-rickshaws and taxis.",
+      "The temple is centrally located in Hampankatta, near K.S. Rao Road. Local buses and auto-rickshaws provide convenient access.",
   },
   {
     title: "Best Time to Visit",
     description:
-      "October to February offers pleasant weather. Festival periods are especially popular with devotees.",
+      "Early morning and evening are suitable for darshan. Ganesh Chaturthi, Rathotsava and Deepotsava are important festival occasions.",
   },
   {
     title: "Visitor Guidelines",
     description:
-      "Wear modest clothing, maintain cleanliness and respect temple customs and photography restrictions.",
+      "Wear modest clothing, maintain temple cleanliness and follow the instructions of temple authorities. Contact the temple before planning special sevas.",
   },
 ];
 
@@ -141,15 +142,20 @@ export default function SharavuTemplePage() {
         <div className="mt-8 grid gap-10 md:grid-cols-2">
           <div className="leading-8 text-[#75665D]">
             <p>
-              Sharavu Mahaganapathi Temple is a prominent Hindu temple located
-              in the heart of Mangaluru. It is dedicated to Lord Mahaganapathi
-              and holds an important place in the religious traditions of the
-              region.
+              Sharavu Mahaganapathi Temple, situated in Hampankatta,
+              Mangaluru, is an important centre of worship dedicated
+              to Lord Mahaganapathy. The temple is closely associated
+              with the worship of Lord Shiva and the deity
+              Sharabeshwara.
             </p>
+
             <p className="mt-5">
-              The temple attracts devotees throughout the year. Its religious
-              celebrations, traditional rituals and peaceful atmosphere make
-              it an important spiritual destination in Dakshina Kannada.
+              According to local temple tradition, its origin is linked
+              to King Veerabahu and Sage Bharadhwaja. The legend tells
+              of the king's encounter with a sacred cow during a hunt
+              and the events that led to the installation of a Shiva
+              Linga. This traditional story forms an important part
+              of the temple's religious identity.
             </p>
           </div>
           <img
