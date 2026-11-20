@@ -5,7 +5,7 @@ const naturePlaces = [
     location: "Moodushedde, Mangaluru",
     description:
       "A popular eco-education and tourism destination featuring a biological park, lake, botanical garden and heritage village.",
-    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80",
+      image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pilikula-Lake-Garden-1.jpg",    
     link: "/destinations/pilikula-nisargadhama",
   },
   {
@@ -13,7 +13,7 @@ const naturePlaces = [
     location: "Kadri, Mangaluru",
     description:
       "A peaceful urban park with green spaces, walking paths and recreational areas for families.",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_near_the_Alley_walkway_at_Kadri_Park_in_Mangalore.jpg",
     link: "/destinations/kadri-park",
   },
   {
@@ -21,7 +21,7 @@ const naturePlaces = [
     location: "Tannirbhavi, Mangaluru",
     description:
       "A coastal green space with native trees and natural surroundings, offering a relaxing outdoor experience.",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tannirbhavi_Tree_Park.jpg",
     link: "/destinations/tannirbhavi-tree-park",
   },
   {
@@ -29,7 +29,7 @@ const naturePlaces = [
     location: "Belvai, Moodabidri",
     description:
       "A nature attraction dedicated to butterflies, offering visitors an opportunity to learn about their life cycles and habitats.",
-    image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Nawab_at_Sammilan_Shetty%27s_Butterfly_Park.jpg",
     link: "/destinations/butterfly-park",
   },
   {
@@ -37,7 +37,7 @@ const naturePlaces = [
     location: "Adyar, Mangaluru",
     description:
       "A scenic natural spot surrounded by greenery, popular with visitors who enjoy peaceful outdoor locations.",
-    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Adayar_Falls_Mnagalore.jpg",
     link: "/destinations/adyar-falls",
   },
   {
@@ -45,7 +45,7 @@ const naturePlaces = [
     location: "Moodabidri, Dakshina Kannada",
     description:
       "A farm attraction known for its greenery, plantations and agricultural surroundings.",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/58/45/soans-farm.jpg?h=-1&s=1&w=1200",
     link: "/destinations/soans-farm",
   },
 ];
@@ -90,8 +90,8 @@ export default function NaturePage() {
           {naturePlaces.map((place) => (
             <article
               key={place.name}
-              className="group overflow-hidden border border-[#C6A16B]/50 bg-[#F8F1E7] transition-all duration-500 hover:-translate-y-2 hover:border-[#A64F3C] hover:shadow-2xl"
-            >
+              className="group flex h-full flex-col overflow-hidden border border-[#C6A16B]/50 bg-[#F8F1E7] transition-all duration-500 hover:-translate-y-2 hover:border-[#A64F3C] hover:shadow-2xl"
+              >
               <div className="h-64 overflow-hidden">
                 <img
                   src={place.image}
@@ -100,7 +100,7 @@ export default function NaturePage() {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="flex flex-1 flex-col p-6">
                 <h2 className="text-2xl font-bold text-[#27151F]">
                   {place.name}
                 </h2>
@@ -113,7 +113,7 @@ export default function NaturePage() {
                 </p>
                 <a
                   href={place.link}
-                  className="mt-6 inline-block border border-[#C6A16B] bg-transparent px-5 py-3 text-sm tracking-wide text-[#A64F3C] transition-all duration-300 hover:bg-[#27151F] hover:text-[#D6AE70]"
+                  className="mt-auto inline-block self-start border border-[#C6A16B] bg-transparent px-5 py-3 text-sm tracking-wide text-[#A64F3C] transition-all duration-300 hover:bg-[#27151F] hover:text-[#D6AE70]"
                 >
                   Discover More →
                 </a>
